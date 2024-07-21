@@ -117,7 +117,7 @@ Customers have been segmented into groups based on their purchasing behavior. Hi
 8. **Store Performance**: Stacked bubble chart showing the number of items sold by each store.
 
 ### Tableau Dashboard
-![Customer Dashboard](link-to-image.png)
+![Customer Dashboard](Dashboard.png)
 [View the Tableau Dashboard](https://public.tableau.com/views/Customer_Dashboard_17215683155920/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Conclusion and Insights
@@ -138,6 +138,7 @@ This section provides instructions on how to use the project repository.
 
 ### Usage
 1. **Data Ingestion**:
+    - Place your data files in the `data` folder.
     - Follow the steps outlined in the [Data Ingestion](#data-ingestion) section to set up the data in AWS S3 and RDS.
 2. **Run the Analysis**:
     - Execute the Python scripts for data preprocessing, RFM analysis, and clustering.
